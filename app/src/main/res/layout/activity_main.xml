@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:padding="30sp"
+            android:text="Selamat Datang di Aplikasi Mobile Mi 2A"
+            android:textAlignment="center"
+            android:textColor="#B31EE9"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnClickHere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:padding="20sp"
+            android:text="Click Here!" />
+
+        <Button
+            android:id="@+id/btnPageKedua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Page Kedua" />
+
+        <Button
+            android:id="@+id/btnKalkulatorSederhana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kalkulator Sederhana" />
+
+        <Button
+            android:id="@+id/btnPassingData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Passing Data" />
+
+        <Button
+            android:id="@+id/btnListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lisv View " />
+
+        <Button
+            android:id="@+id/btnRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycle View" />
+
+        <Button
+            android:id="@+id/btnRecycleBuah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycle Buah" />
+        <Button
+            android:id="@+id/btnMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
